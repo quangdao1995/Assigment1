@@ -1,0 +1,98 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#header2 {
+    background-color:gray;
+    color:white;
+    text-align:center;
+    padding:1	px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:400px;
+    width:225px;
+    float:left;
+    padding:5px; 
+}
+#main {
+
+}
+#sectionsmall {
+    width:400px;
+    float: left;	
+    padding:10px; 
+}
+#section {
+    width:1060px;
+    float: left;	
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+    position: relative;
+}
+img.face {
+    float: left;
+    border: 1px black;
+    margin: 0px 20px 10px 100px;
+}
+img.face2 {
+    float: left;
+    border: 1px black;
+    margin: 20px 10px 10px 10px;
+}
+table {
+	border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
